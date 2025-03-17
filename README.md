@@ -47,6 +47,6 @@ We provide the [out-of-the-box](https://github.com/volcengine/verl/blob/gm-tyx/p
 
 We thank the [verl](https://github.com/volcengine/verl) for providing the awesome open-source RL infrastructure.
 
-Our open-sourced experiments were conducted on the Volcano Engine Machine Learning Platform ([console](https://console.volcengine.com/ml-platform), [documentation](https://www.volcengine.com/docs/6459/)). We will provide a full reproduction guideline later on the Volcano Engine platform to help users replicate our experiments.
+Our open-sourced experiments were conducted on the Volcano Engine Machine Learning Platform. We will provide a full reproduction guideline later on the Volcano Engine platform to help users replicate our experiments.
 
 <!-- ## Citation -->
