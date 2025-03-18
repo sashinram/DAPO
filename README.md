@@ -30,9 +30,9 @@ Through open-sourcing, we provide the broader research community and society wit
 
 ![alt text](img/dynamic.png)
 
-## Fully Open-Source
+## Reproducibility
 
-To benefit the broader research community, we fully open-source the recipe of our RL training, including algorithm details, dataset, verifiers and infrastructures.
+To benefit the broader research community, we fully open-source the recipe of our RL training, including algorithm details, dataset, and infrastructures.
 
 ### Datasets
 We provide training and validation datasets for DAPO training.
@@ -40,8 +40,17 @@ We provide training and validation datasets for DAPO training.
 Training: [DAPO-Math-17k](https://huggingface.co/datasets/BytedTsinghua-SIA/DAPO-Math-17k), a carefully curated and processed math dataset.
 Validation: [AIME 2024](https://huggingface.co/datasets/BytedTsinghua-SIA/AIME-2024).
 
-### Training Script
+### Training
+
 We provide the [out-of-the-box](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/run_dapo_qwen2.5_32b.sh) script for DAPO training reproduction.
+
+Note:
+
+- The current script does not include the `Dynamic Sampling` feature and achieves 44 points on AIME.
+
+- The detailed wandb log will be provided and we are working on cleaning some weired logs. 
+
+- The performance of Figure 1 in the paper (50 on AIME) is achieved using the full DAPO algorithm based on our internal infrastructure, which includes heavy engineering optimization code based on verl. We are working on cleaning the code and releasing the full version soon. Please stay tuned!
 
 ## Acknowledgement
 
