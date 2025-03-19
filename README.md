@@ -45,17 +45,17 @@ Validation: [AIME 2024](https://huggingface.co/datasets/BytedTsinghua-SIA/AIME-2
 We provide the [out-of-the-box](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo) script for DAPO training reproduction. Quickstart and core code are mentioned in [README](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/README.md). These are scripts for:
 
 - [Datasets Preparation](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/prepare_dapo_data.sh)
-- [DAPO Training](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/run_dapo_qwen2.5_32b.sh)
-- [Ablation Training](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/run_dapo_early_qwen2.5_32b.sh)
+- [DAPO w/o Dynamic Sampling -- AIME 44](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/run_dapo_early_qwen2.5_32b.sh)
+- [Full DAPO Training -- AIME 50](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/run_dapo_qwen2.5_32b.sh)
 - [Testing](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/test_dapo_7b.sh)
 
 Note:
 
-- The current script does not include the `Dynamic Sampling` feature and achieves 44 points on AIME.
+- The `DAPO w/o Dynamic Sampling -- AIME 44` script is verifier on verl and achieves 44 points on AIME.
 
 - The detailed wandb log will be provided and we are working on cleaning some weired logs. 
 
-- The performance of Figure 1 in the paper (50 on AIME) is achieved using the full DAPO algorithm based on our internal infrastructure, which includes heavy engineering optimization code based on verl. We are working on cleaning the code and releasing the full version soon. Please stay tuned!
+- The final performance of DAPO (50 on AIME) is achieved using the full DAPO algorithm based on our internal codebase, which includes heavy engineering optimization code based on verl. The `Full DAPO Training` script provides the command to run the full DAPO algorithm. But we still have not verified it on verl.
 
 ## Acknowledgement
 
