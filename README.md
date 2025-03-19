@@ -46,16 +46,15 @@ We provide the [out-of-the-box](https://github.com/volcengine/verl/blob/gm-tyx/p
 
 - [Datasets Preparation](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/prepare_dapo_data.sh)
 - [DAPO w/o Dynamic Sampling -- AIME 44](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/run_dapo_early_qwen2.5_32b.sh)
-- [Full DAPO Training -- AIME 50](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/run_dapo_qwen2.5_32b.sh)
-- [Testing](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/test_dapo_7b.sh)
+- [DAPO Full -- AIME 50](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/run_dapo_qwen2.5_32b.sh)
 
 Note:
 
-- The `DAPO w/o Dynamic Sampling -- AIME 44` script is verifier on verl and achieves 44 points on AIME.
+- The `DAPO w/o Dynamic Sampling -- AIME 44` script is verified on verl and achieves 44 points on AIME.
 
 - The detailed wandb log will be provided and we are working on cleaning some weired logs. 
 
-- The final performance of DAPO (50 on AIME) is achieved using the full DAPO algorithm based on our internal codebase, which includes heavy engineering optimization code based on verl. The `Full DAPO Training` script provides the command to run the full DAPO algorithm. But we still have not verified it on verl.
+- The final performance of DAPO (50 on AIME) is achieved using the full DAPO algorithm based on our internal codebase, which includes heavy engineering optimization code based on verl. The `DAPO Full` script provides the command to run the full DAPO algorithm. But we still have not verified it on verl.
 
 ## Acknowledgement
 
