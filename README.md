@@ -42,7 +42,12 @@ Validation: [AIME 2024](https://huggingface.co/datasets/BytedTsinghua-SIA/AIME-2
 
 ### Training
 
-We provide the [out-of-the-box](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/run_dapo_qwen2.5_32b.sh) script for DAPO training reproduction.
+We provide the [out-of-the-box](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo) script for DAPO training reproduction. Quickstart and core code are mentioned in [README](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/README.md). These are scripts for:
+
+- [Datasets Preparation](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/prepare_dapo_data.sh)
+- [DAPO Training](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/run_dapo_qwen2.5_32b.sh)
+- [Ablation Training](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/run_dapo_early_qwen2.5_32b.sh)
+- [Testing](https://github.com/volcengine/verl/blob/gm-tyx/puffin/main/recipe/dapo/test_dapo_7b.sh)
 
 Note:
 
