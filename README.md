@@ -12,11 +12,15 @@
 We release a fully open-sourced system for large-scale LLM RL, including algorithm, code infrastructure, and dataset. The system achieves state-of-the-art large-scale LLM RL performance. We propose the **D**ecoupled Clip and **D**ynamic s**A**mpling **P**olicy **O**ptimization (**DAPO**) algorithm.
 Through open-sourcing, we provide the broader research community and society with practical access to scalable reinforcement learning, enabling all to benefit from these advancements. Our system is based on the awesome [verl](https://github.com/volcengine/verl) framework. Thanks for their great work!
 
+## Discussions Welcomed
+
+🤗 If you have any questions about our paper, issues are welcomed and we could discuss there. Thank you!
+
 ## Key Results
 
 ### AIME 2024 Performance
 
-**DAPO** achieves 50 points on AIME 2024 based on the Qwen2.5-32B base model, outperforming the previous SoTA DeepSeek-R1-Zero-Qwen-32B with 50% training steps.
+🚀 **DAPO** achieves 50 points on AIME 2024 based on the Qwen2.5-32B base model, outperforming the previous SoTA DeepSeek-R1-Zero-Qwen-32B with 50% training steps.
 
 ![alt text](img/score.png)
 
@@ -50,7 +54,7 @@ We provide the [out-of-the-box](https://github.com/volcengine/verl/blob/gm-tyx/p
 
 Note:
 
-- The `DAPO w/o Dynamic Sampling -- AIME 44` script is verified on verl and achieves 44 points on AIME.
+- The `DAPO w/o Dynamic Sampling -- AIME 44` script has been verified on the current verl and achieves 44 points on AIME.
 
 - The detailed wandb log will be provided and we are working on cleaning some weired logs. 
 
